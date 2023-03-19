@@ -1,0 +1,121 @@
+.word-box {
+	background-color: rgba(255, 255, 255, 0.3); /* set the background color with alpha transparency value */
+	padding: 20px; /* add some padding to the word box */
+	border-radius: 50px; /* set the border radius to create rounded corners */
+	width: 70%; /* set the width to 80% of the container */
+	margin: auto; /* center the word box within the container */
+}
+.SocialBox {
+	background-color: rgba(255, 255, 255, 0.3); /* set the background color with alpha transparency value */
+	padding: 20px; /* add some padding to the word box */
+	border-radius: 50px; /* set the border radius to create rounded corners */
+	width: 40%; /* set the width to 80% of the container */
+	margin: auto; /* center the word box within the container */
+}
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font and background color */
+body {
+  font-family: 'SamsungOne', sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Style header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style h1 */
+h1 {
+  font-size: 2rem;
+}
+
+/* Style navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  position: relative;
+}
+
+nav li a {
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style dropdown menus */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 0.5rem 0;
+  z-index: 1;
+}
+
+nav ul ul li {
+  width: 100%;
+}
+
+nav ul ul li a {
+  color: #333;
+}
+
+nav li:hover > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul ul li:hover > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Style hover effect */
+nav li a:hover {
+  background-color: #f5f5f5;
+  color: #333;
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: 0px 0px 10px #2196F3;
+}
+
+nav ul ul li a:hover {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+nav ul ul li:hover > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul ul ul li:hover > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Center main text */
+.center {
+  text-align: center;
+}
+.img {
+	border-radius: 20px; /* set the border radius to create rounded corners */
+}
+table, td, th { 
+	 padding: 15px;
+}
